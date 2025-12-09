@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sistema de inventario</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="buscar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Buscar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="barraBuscar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>281</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lupa">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>10</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>🔎</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tituloTabla">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TABLA DE ARTÍCULOS</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tablaArticulos">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>511</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="showGrid">
+     <bool>true</bool>
+    </property>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Tipo</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cantidad</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ubicación</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Adquisición</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLineEdit" name="nombreA">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>80</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nombre">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>60</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nombre</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tipo">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>110</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tipo</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tipoA">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>130</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="cantidad">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>160</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cantidad</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="cantidadA">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>180</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ubicacion">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>210</y>
+      <width>81</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ubicación</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ubicacionA">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>230</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fecha">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>260</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fecha de adquisición</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fechaA">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>280</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="agregar">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>320</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Agregar artículo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CSV">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>320</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Exportar CSV</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>791</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
